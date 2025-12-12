@@ -290,7 +290,7 @@ local RayfieldLibrary = {
 
 			SliderBackground = Color3.fromRGB(15, 15, 15),
 			SliderProgress = Color3.fromRGB(20, 20, 20),
-			SliderStroke = Color3.fromRGB(58, 163, 255),
+			SliderStroke = Color3.fromRGB(100, 100, 100),
 
 			ToggleBackground = Color3.fromRGB(15, 15, 15),
 			ToggleEnabled = Color3.fromRGB(0, 0, 255),
